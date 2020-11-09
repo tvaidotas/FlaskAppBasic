@@ -14,5 +14,9 @@ def hello_world():
 def abc():
     return 'Hello from ABC'
 
+@app.route('/xyz')
+def xyz():
+    return 'Hello from XYZ'
+
 if __name__ == '__main__':
     app.run()
