@@ -1,12 +1,13 @@
 from flask import Flask
 
-app = Flask(__name__)
+# Here are some new lines added in the original version...
+# And another one...
 
+app = Flask(__name__)
 
 @app.route('/')
 def hello_world():
-    return 'Hello everyone !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!'
-
+    return 'Hello everyone from Dan Mead'
 
 if __name__ == '__main__':
     app.run()
